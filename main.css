@@ -58,6 +58,28 @@ canvas{
 	color: #FFFFFF;
 }
 
+#swirl{
+	margin-bottom: -4.5%; 
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	-o-transform: scale(0.9);
+	transform: scale(0.9);
+	max-width:100%; 
+	min-width:50%;
+}
+
+#double-swirl{
+	margin-top:-2.5%; 
+	-webkit-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	-ms-transform: scale(0.5);
+	-o-transform: scale(0.5);
+	transform: scale(0.5); 
+	max-width:100%; 
+	min-width:50%;
+}
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
 canvas{
@@ -74,5 +96,12 @@ canvas{
 	display: none;
 }
 
+#swirl{
+	margin-bottom: -6.5%; 
+}
+
+#double-swirl{
+	margin-bottom: -4.5%; 
+}
 
 }
