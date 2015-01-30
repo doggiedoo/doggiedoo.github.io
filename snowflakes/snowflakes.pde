@@ -3,7 +3,7 @@ boolean mouseDown = false;
 
 void setup()
 {
-  size(displayWidth, displayHeight);
+  size(1400, 800);
   background(230,230,230,0);
   smooth();
   noStroke();
@@ -14,7 +14,7 @@ void draw()
 {
   background(230,230,230,0);
 
-  snowflakes.add(new Particle(random(displayWidth), 0));
+  snowflakes.add(new Particle(random(1400), 0));
     
   snowflakes.run();
 }
