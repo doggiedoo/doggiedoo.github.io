@@ -3,7 +3,6 @@ body {
   	padding-bottom: 30px;
   	background-color: #DEE7FF;
 	overflow: hidden;
-	overflow-y: scroll;
 }
 
 .theme-dropdown .dropdown-menu {
