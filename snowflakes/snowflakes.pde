@@ -4,9 +4,6 @@ boolean mouseDown = false;
 void setup()
 {
   size(displayWidth, displayHeight);
-  if (frame != null) {
-    frame.setResizable(true);
-  }
   background(230,230,230,0);
   smooth();
   noStroke();
