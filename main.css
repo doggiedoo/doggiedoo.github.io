@@ -57,3 +57,22 @@ canvas{
 	font-family: 'Bree Serif', serif;
 	color: #FFFFFF;
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+canvas{
+	width: 100%;
+	overflow:hidden;
+	-webkit-transform: scale(2);
+	-moz-transform: scale(2);
+	-ms-transform: scale(2);
+	-o-transform: scale(2);
+	transform: scale(2);
+}
+
+.dog-images{
+	display: none;
+}
+
+
+}
