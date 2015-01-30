@@ -1,35 +1,21 @@
-html 
-{
-  	font-size: 100%;
- 	-webkit-text-size-adjust: 100%;
-  	-ms-text-size-adjust: 100%;
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background-color: #B8DBFF;
 }
 
-body
-{
-	margin: 0 0;
-	padding: 0;
-	overflow:hidden;
-	background-color: #B8DBFF;
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
 }
 
-a
-{
-    	text-decoration: none;
-    	color:black;
+.theme-showcase > p > .btn {
+  margin: 5px 0;
 }
 
-ul 
-{
-    	list-style-type: none;
-    	margin-left:-41px;
-}
-
-li 
-{
-    	display: block;
-    	padding: 10px;
-    
+.theme-showcase .navbar .container {
+  width: auto;
 }
 
 canvas{
