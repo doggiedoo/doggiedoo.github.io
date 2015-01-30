@@ -26,7 +26,6 @@ body {
 canvas{
 	position: fixed;
 	z-index: 50;
-	margin-top: -10px;
     	margin-left: auto;
     	margin-right: auto;
     	display: block;
