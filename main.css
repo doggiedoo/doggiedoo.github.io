@@ -1,21 +1,26 @@
 body {
-  padding-top: 70px;
-  padding-bottom: 30px;
-  background-color: #B8DBFF;
+  	padding-top: 70px;
+  	padding-bottom: 30px;
+  	background-color: #DEE7FF;
+	overflow: hidden;
 }
 
 .theme-dropdown .dropdown-menu {
-  position: static;
-  display: block;
-  margin-bottom: 20px;
+	position: static;
+	display: block;
+  	margin-bottom: 20px;
 }
 
 .theme-showcase > p > .btn {
-  margin: 5px 0;
+	margin: 5px 0;
 }
 
 .theme-showcase .navbar .container {
-  width: auto;
+	width: auto;
+}
+
+.navbar{
+	background-color: #5C85FF;
 }
 
 canvas{
@@ -31,13 +36,14 @@ canvas{
 .underline {
 	display: inline-block;
 	position: relative;
-	padding-bottom: 3px;
+	padding-bottom: 6px;
 }
 
 .underline:after {
 	content: '';
 	display: block;
 	margin: auto;
+	margin-top:-12px;
 	height: 3px;
 	width: 0px;
 	background: transparent;
@@ -45,7 +51,11 @@ canvas{
 }
 
 .underline:hover:after {
-	width: 100%;
+	width: 75%;
 	background: #EBEBFF;
 }
 
+.doggiedo{
+	font-family: 'Bree Serif', serif;
+	color: #FFFFFF;
+}

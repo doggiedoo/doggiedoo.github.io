@@ -13,6 +13,8 @@
 	<link href="bootstraptheme.min.css" rel="stylesheet">
 	<link href="main.css" rel="stylesheet"/>
 
+	<link href='http://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
+
 </head>
 
 <body>
@@ -29,14 +31,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="http://www.doggiedoo.github.io"><img src="logo.png"/></a>
+          <a class="navbar-brand" href="http://www.doggiedoo.github.io"><img src="logo.png"/ style="position:fixed; left: 2%; top: -.25%;"></a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
+        <div id="navbar" class="navbar-collapse collapse" style= "margin-right:-3%;">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-	    <li><a href="#contact">Pricing</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="underline"><a href="#about">About</a></li>
+	    <li class="underline"><a href="#contact">Pricing</a></li>
+            <li class="underline"><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -44,17 +45,16 @@
 
 	<canvas id= "snowflakes" data-processing-sources="snowflakes.pde"></canvas>
 	
-	<div id="Center">
-	<img src="swirls.png"/>
-		<h1>Doggie Doo</h1>
-		<h3>professional pet sitting & dog walking</h3>	
-	<img src="doubleswirls.png"/>
+	<div class="row text-center doggiedo">
+		<img src="swirls.png" style="margin-bottom: -65px; -webkit-transform: scale(0.9);-moz-transform: scale(0.9);-ms-transform: scale(0.9);-o-transform: scale(0.9);transform: scale(0.9);"/>
+			<h1>Doggie Do</h1>
+			<h3 style="margin-top:-3px;">Professional pet sitting & dog walking</h3>	
+		<img src="doubleswirls.png" style="margin-top:-50px; -webkit-transform: scale(0.5);-moz-transform: scale(0.5);-ms-transform: scale(0.5);-o-transform: scale(0.5);transform: scale(0.5);"/>
 	</div>
-
-	<img src="dogs.png"/>
-	<img src="sidewalk.png"/>
+		<img src="sidewalk.png" style="position:absolute; top:66%;left:-27%"/>
+		<img src="dogs.png" style="position: absolute; top: 30%; left: 44%; -webkit-transform: scale(0.7);-moz-transform: scale(0.7);-ms-transform: scale(0.7);-o-transform: scale(0.7);transform: scale(0.7);"/>
+		
 	
-
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="bootstrap.min.js"></script>
 	<script src="processing.min.js"></script>
