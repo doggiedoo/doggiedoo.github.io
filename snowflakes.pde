@@ -3,8 +3,10 @@ boolean mouseDown = false;
 
 void setup()
 {
-  
-  size(800,600,P2D);
+  size(displayWidth, displayHeight);
+  if (frame != null) {
+    frame.setResizable(true);
+  }
   background(230,230,230,0);
   smooth();
   noStroke();
@@ -15,7 +17,7 @@ void draw()
 {
   background(230,230,230,0);
 
-  snowflakes.add(new Particle(random(800), 0));
+  snowflakes.add(new Particle(random(displayWidth), 0));
     
   snowflakes.run();
 }
