@@ -2,7 +2,7 @@ body {
   	padding-top: 70px;
   	padding-bottom: 30px;
   	background-color: #DEE7FF;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 
 .theme-dropdown .dropdown-menu {
