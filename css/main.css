@@ -73,15 +73,14 @@ a:link, a:visited {
 }
 
 .home{
-	
 	position: absolute;
+	text-align: center;
 	z-index: 25;
-	margin-left: auto;
-	margin-right: auto;
 	left: 0;
 	right: 0;
+	margin-left: auto;
+	margin-right: auto;
 	top: 15%;
-	text-align: center;
 }
 
 .home h2{
@@ -95,7 +94,7 @@ a:link, a:visited {
 }
 
 .dog{
-	position: fixed;
+	position: fixed;	
 	top: 10%;
 	background-image:url("dogs.png");
 	background-position: center center;
