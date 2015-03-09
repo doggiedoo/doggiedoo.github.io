@@ -132,8 +132,8 @@ a:link, a:visited {
 	
 	}
 
-	.nav a{
-		font-size: 12px;
+	.nav ul{
+		font-size: 15px;
 		text-align: center;
 	}
 	
