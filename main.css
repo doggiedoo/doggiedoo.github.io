@@ -122,12 +122,13 @@ a:link, a:visited {
 }
 
 @media all and (max-device-width : 320px) and (max-device-width : 480px){
-	.nav{
+	.nav a{
 		font-size: 12px;
+		text-align: center;
 	}
 	
 	.home h2{
-		font-size: 20px;
+		font-size: 15px;
 		font-weight: 200;
 	}
 
@@ -136,7 +137,7 @@ a:link, a:visited {
 	}
 
 	#dog{
-		display:none;
+		display: none;
 	}
 }
 
