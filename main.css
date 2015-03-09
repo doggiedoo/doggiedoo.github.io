@@ -125,9 +125,16 @@ a:link, a:visited {
    and (min-device-width : 320px)
    and (max-device-width : 480px){ 
 
+	.nav h1{
+		position: static;
+		text-align: center;
+	
+	}
+
 	.nav a{
+		position: absolute;
 		font-size: 12px;
-		text-align: left;
+		text-align: center;
 	}
 	
 	.home h2{
