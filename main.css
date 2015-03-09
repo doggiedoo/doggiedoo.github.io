@@ -101,8 +101,11 @@ a:link, a:visited {
 
 #dog{
 	position: absolute;
-	top: 16.5%;
+	z-index: -2;
 	max-width: 100%;
+	min-width:80%;
+	top: 10%;
+	
 }	
 
 .green{
