@@ -127,17 +127,15 @@ a:link, a:visited {
 
 	.nav a{
 		font-size: 12px;
-		left: 0;
-		text-align: center;
+		text-align: left;
 	}
 	
 	.home h2{
-		font-size: 12px;
-		font-weight: 200;
+		font-size: 20px;
 	}
 
 	.home h3{
-		display: none;
+		line-height: 8px;
 	}
 
 	#dog{
