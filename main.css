@@ -128,17 +128,19 @@ a:link, a:visited {
 
 	.nav h1{
 		float: none;
+		margin: 0;
 		text-align: center;
 	
 	}
 
 	.nav ul{
 		font-size: 15px;
+		margin: 0;
 		text-align: center;
 	}
 	
 	.home{
-		top:
+		top: 17.5%;
 	}
 
 	.home h2{
