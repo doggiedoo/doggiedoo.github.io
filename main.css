@@ -11,6 +11,7 @@ body {
 
 .nav{
 	position: fixed;
+	z-index: 50;
 	background-color: white;
 	width: 100%;
 	max-height: 25%;
@@ -126,7 +127,7 @@ a:link, a:visited {
    and (max-device-width : 480px){ 
 
 	.nav h1{
-		position: static;
+		float: none;
 		text-align: center;
 	
 	}
@@ -138,11 +139,12 @@ a:link, a:visited {
 	}
 	
 	.home h2{
-		font-size: 20px;
+		margin-top: 20%;
+		font-size: 30px;
 	}
 
 	.home h3{
-		line-height: 8px;
+		line-height: 20px;
 	}
 
 	#dog{
