@@ -6,54 +6,72 @@ body {
 }
 
 #logo{
-	width: 8%;
+	width: 25px;
 }
 
-.nav{
-	position: fixed;
-	z-index: 50;
-	background-color: white;
-	width: 100%;
-	max-height: 100%;
+#nav {
+	position:fixed;
+	width:100%;		
+	font-weight:600;
+	font-size:1.125em;
+	padding:1em 0;
+	background:#fff;
+	z-index:999;
 }
 
-.nav h1{
-	float:left;
-	font-size: 30px;
-	font-weight: 300;
-	max-width:400px;
-	margin-left: 4%;
-	margin-top: .1px;
+#nav:before{
+	content : "";
+  	position: absolute;
+  	left    : 4%;
+  	bottom  : 0;
+  	width   : 92%;
+  	border-bottom:3px solid #DA3F31;
 }
 
-.nav ul {
-	list-style: none;
-	margin-right: 4%;
+#nav li {
+	display:inline-block;
+	padding:0.5em 0.5em;
+}
+
+#nav ul {
+	padding:0;
+	margin:0;
 	text-align:right;
 }
 
-.nav li {
-	display: inline-block;
+#nav h1{	
+	text-align:left;
+	font-size: 30px;
+	font-weight: 300;
+	padding:0;
+	margin:0;
+	margin-left:10%;
+	text-align:left;
 	
 }
 
-.nav .links a{
-	display: block;
+#nav .links a{
 	font-size: 18px;
-	padding: 10px 10px;
 }
 
-.nav .links a:link, a:visited {
+#nav .links a:link, a:visited {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
     	color: #000000;
-	text-align: center;
     	text-decoration: none;
 }
 
 a:link, a:visited{
 	color: #000000;
 	text-decoration: none;;
+}
+
+.container-1{
+	width: 40%; 
+}
+
+.container-2{
+	width: 55%;
 }
 
 .underline {
@@ -128,15 +146,8 @@ a:link, a:visited{
 	font-weight: 400;
 }
 
-.red-line{
-	width: 92%;
-	margin-left: 4%;
-	background-color:#DA3F31;
-	height: 3px;
-}
-
-.slicknav_menu {
-    display:none;
+.slicknav_menu{
+	display: none;
 }
 
 @media only screen
@@ -172,20 +183,34 @@ a:link, a:visited{
 	.dog{
 		background-image:
 			linear-gradient(
-      			rgba(255, 255, 255, 0.5),
-      			rgba(255, 255, 255, 0.5)
+      			rgba(255, 255, 255, 0.9),
+      			rgba(255, 255, 255, 0.9)
     			),
 			url("dogs.png");
 	}
 }
 
-@media screen and (max-width: 40em) {
-    .js #menu {
-        display:none;
-    }
+@media only screen and (max-width: 767px) {
+	.slicknav_menu {
+		display:block;
+	}
 
-    .js .slicknav_menu {
-        display:block;
-    }
+	#menu{
+		display:none;
+	}
+
+	.container-1{
+		width:100%;
+	}
 }
+
+
+/* Tablet Portrait size to Base 996px */
+@media only screen and (min-width: 768px) and (max-width: 995px) {}
+
+/* Mobile Landscape Size to Tablet Portrait */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size */
+@media only screen and (max-width: 479px) {}
 

@@ -3,18 +3,19 @@
     (c) 2014 Josh Cope
     licensed under MIT
 */
+
 ;(function ($, document, window) {
     var
     // default settings object.
         defaults = {
-            label: 'MENU',
+            label: '',
             duplicate: true,
             duration: 200,
             easingOpen: 'swing',
             easingClose: 'swing',
             closedSymbol: '&#9658;',
             openedSymbol: '&#9660;',
-            prependTo: 'body',
+            prependTo: '#nav',
             parentTag: 'a',
             closeOnClick: false,
             allowParentLinks: false,
