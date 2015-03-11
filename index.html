@@ -10,6 +10,7 @@
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 
 	<link href="css/normalize.css" rel="stylesheet"/>
+	<link href="css/slicknav.css" rel="stylesheet"/>
 	<link href="css/main.css" rel="stylesheet"/>
 
 	<link href='http://fonts.googleapis.com/css?family=Muli:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
@@ -26,6 +27,19 @@
 
 	</script>
 
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="js/jquery.slicknav.js"></script>
+	<script>
+    		$(function(){
+      			$('#nav').slicknav();
+			label: '',
+			duration: 1000,
+			easingOpen: 'swing',
+			easingClose: 'swing'
+			prependTo: 'nav'
+   		});
+	</script>
+
 </head>
 
 <body>
@@ -33,14 +47,18 @@
 <div class="nav">
 
 	<nav>
-		<h1><img id="logo" src="logo.png" alt="logo"/> Doggie Do Good</h1>
-
-		<ul>
-			<li><a href="#home">Home</a></li>
-			<li><a href="#about">About</a></li>
-			<li><a href="#pricing">Pricing</a></li>
-			<li><a href="#volunteer">Volunteer</a></li>
-			<li><a href="#contact">Contact Us</a></li>
+		<h1>
+			<img id="logo" src="logo.png" alt="logo"/>
+			<a href="http://www.doggiedogood.org"> Doggie Do Good</a>
+		</h1>
+		<ul id="nav">
+			<div class="links">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#pricing">Pricing</a></li>
+				<li><a href="#volunteer">Volunteer</a></li>
+				<li><a href="#contact">Contact Us</a></li>
+			</div>
 		</ul>
 	
 	<div class="red-line"></div>
@@ -100,5 +118,8 @@
 
 	</div>
 -->
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>

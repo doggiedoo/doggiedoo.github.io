@@ -23,7 +23,7 @@ body {
 	font-weight: 300;
 	max-width:400px;
 	margin-left: 4%;
-	margin-top: 1px;
+	margin-top: .1px;
 }
 
 .nav ul {
@@ -37,18 +37,23 @@ body {
 	
 }
 
-.nav a{
+.nav .links a{
 	display: block;
 	font-size: 18px;
 	padding: 10px 10px;
 }
 
-a:link, a:visited {
+.nav .links a:link, a:visited {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
     	color: #000000;
 	text-align: center;
     	text-decoration: none;
+}
+
+a:link, a:visited{
+	color: #000000;
+	text-decoration: none;;
 }
 
 .underline {
@@ -130,6 +135,10 @@ a:link, a:visited {
 	height: 3px;
 }
 
+.slicknav_menu {
+    display:none;
+}
+
 @media only screen
    and (min-device-width : 320px)
    and (max-device-width : 480px){ 
@@ -168,5 +177,15 @@ a:link, a:visited {
     			),
 			url("dogs.png");
 	}
+}
+
+@media screen and (max-width: 40em) {
+    .js #menu {
+        display:none;
+    }
+
+    .js .slicknav_menu {
+        display:block;
+    }
 }
 
