@@ -148,21 +148,8 @@ a:link, a:visited{
 
 	#home h2{
 		font-size: 30px;
-		word-spacing: 800px;
 	}
 	
-	.blue{
-		word-spacing: normal;
-	}
-
-	.red{
-		word-spacing: normal;
-	}		
-
-	.green{
-		word-spacing: normal;
-	}
-
 	#home h3{
 		margin-top: 0;
 		font-size: 14px;
