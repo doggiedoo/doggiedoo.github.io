@@ -72,7 +72,7 @@ a:link, a:visited {
 	background: #69CF90;
 }
 
-.home{
+#home{
 	position: absolute;
 	text-align: center;
 	z-index: 25;
@@ -80,31 +80,33 @@ a:link, a:visited {
 	right: 0;
 	margin-left: auto;
 	margin-right: auto;
-	top: 15%;
+	top: 16.5%;
 }
 
-.home h2{
+#home h2{
 	font-size: 40px;
 	font-weight: 300;
 }
 
-.home h3{
+#home h3{
 	margin-top: -1.5%;
 	font-weight: 300;
 }
 
 .dog{
-	position: fixed;	
+	position: fixed;
+	z-index: -1;	
 	top: 10%;
-	background-image:url("dogs.png");
+	background-image: url("dogs.png");
 	background-position: center center;
     	background-repeat: no-repeat;
     	background-attachment: fixed;
     	background-size: cover;
     	height: 100%;
     	width: 100%;
-	z-index: 5;
 }	
+
+
 
 .green{
 	color: #8ECA76;
@@ -150,12 +152,21 @@ a:link, a:visited {
 		margin-left: -5%;
 	}
 	
-	.home{
+	#home{
 		top: 25%;
 	}
 
-	.home h2{
+	#home h2{
 		font-size: 30px;
+	}
+
+	.dog{
+		background-image:
+			linear-gradient(
+      			rgba(255, 255, 255, 0.5),
+      			rgba(255, 255, 255, 0.5)
+    			),
+			url("dogs.png");
 	}
 }
 
