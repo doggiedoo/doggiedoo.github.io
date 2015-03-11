@@ -159,6 +159,7 @@ a:link, a:visited{
 	}
 
 	#nav h1{
+		margin-top: 1%;
 		font-size: 22px;
 	}
 
@@ -178,8 +179,8 @@ a:link, a:visited{
 	.dog{
 		background-image:
 			linear-gradient(
-      			rgba(255, 255, 255, 0.9),
-      			rgba(255, 255, 255, 0.9)
+      			rgba(255, 255, 255, 0.6),
+      			rgba(255, 255, 255, 0.6)
     			),
 			url("dogs.png");
 	}
