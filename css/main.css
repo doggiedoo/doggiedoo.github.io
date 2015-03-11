@@ -154,26 +154,12 @@ a:link, a:visited{
    and (min-device-width : 320px)
    and (max-device-width : 480px){ 
 
-	.nav h1{
-		float: none;
-		margin: 0;
-		text-align: center;
-		max-width: 100%;
+	#nav h1{
+		font-size: 18px;
 	}
 
-	#logo{
-		max-width: 50%;
-	}
-
-	.nav ul{
-		font-size: 9px;
-		margin: 0;
-		text-align: center;
-		margin-left: -5%;
-	}
-	
 	#home{
-		top: 25%;
+		top: 20%;
 	}
 
 	#home h2{
