@@ -154,8 +154,12 @@ a:link, a:visited{
    and (min-device-width : 320px)
    and (max-device-width : 480px){ 
 
+	#logo{
+		width: 20px;
+	}
+
 	#nav h1{
-		font-size: 18px;
+		font-size: 22px;
 	}
 
 	#home{
@@ -163,7 +167,12 @@ a:link, a:visited{
 	}
 
 	#home h2{
-		font-size: 30px;
+		font-size: 25px;
+	}
+
+	#home h3{
+		margin-top: 0;
+		font-size: 14px;
 	}
 
 	.dog{
